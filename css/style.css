@@ -294,7 +294,7 @@ header  p{
 /* 消息欄位 */
 .news{
   /* border: 1px solid red; */
-  background-image: url(/img/download-2.jpg);
+  background-image: url(../img/download-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -379,7 +379,7 @@ header  p{
 .main_map .map_right img{
   display: block;
   height: 500px;
-  margin-left: 100px;
+  margin-left: 50px;
 }
 
 

@@ -6,7 +6,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 500px;
+  height: 400px;
 }
 
 .note01{
@@ -29,7 +29,9 @@
  
 
 /* 標題 */
-
+h1{
+  padding-top: 100px;
+}
 
 
 
@@ -58,7 +60,7 @@
 }
 .content h3{
   font-size: 20px;
-  color: rgb(234, 168, 198);
+  color: #DFB869;
   margin-bottom: 3px;
   
 }

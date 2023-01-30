@@ -19,9 +19,11 @@
   /* border: 1px solid green; */
   width: 50%;
 }
-.product_left img{
+.product_left > img{
   display: block;
   width: 100%;
+  height: 450px;
+  width: 450px;
 }
 .picture_list{
   

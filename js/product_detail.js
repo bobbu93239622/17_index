@@ -21,3 +21,32 @@ pluscount.addEventListener('click', function(){
 })
   // console.log(plusone);
 })
+
+
+
+
+
+
+
+
+
+
+let b = document.querySelector('.img2');
+    let c = document.querySelector('.img3');
+    let d = document.querySelector('.img4');
+    console.log(b);
+    b.addEventListener('click', function(){
+      let a = document.querySelector('.img1');
+      // console.log(a); 
+      a.src = b.src;
+    })
+    c.addEventListener('click', function(){
+      let a = document.querySelector('.img1');
+      // console.log(a);
+      a.src = c.src;
+    })
+    d.addEventListener('click', function(){
+      let a = document.querySelector('.img1');
+      // console.log(a); 
+      a.src = d.src;
+    })
