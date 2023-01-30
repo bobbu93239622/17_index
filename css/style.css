@@ -255,6 +255,28 @@ header  p{
   width: 250px;
   border-radius: 100%;
   margin-top: 30px;
+  transition: .5s;
+}
+.feature_area_info img:hover{
+  transform: scale(1.2);
+
+}
+
+.feature_area_info .picwra{
+  overflow: hidden;
+  display: block;
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
+  margin-top: 30px;
+
+  
+}
+.feature_area_info .picwra img{
+  display: block;
+  
+  margin-top: 0;
+
 }
 
 

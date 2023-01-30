@@ -63,6 +63,7 @@ h1{
   margin: 0 auto;
   /* margin-top: 50px; bug */
 }
+
 .product ul{
   display: flex;
   flex-wrap: wrap;
@@ -73,9 +74,33 @@ h1{
   margin-left: 40px;
   margin-top: 30px;
 }
+
 .product img{
   display: block;
   height: 250px;
+}
+.product li{
+
+  position:relative;
+  
+}
+.product li:hover i{
+  display: block;
+
+}
+.product i{
+  /* border: 1px solid red; */
+  background-color: gray;
+  opacity: .2;
+  display: block;
+  font-size: 25px;
+  position: absolute;
+  top: 215px;
+  width: 100%;
+  padding: 5px 0;
+  text-align: center;
+  display: none;
+  
 }
 .product a{
   text-decoration: none;
