@@ -90,7 +90,7 @@ header  p{
   top: 50px;
 }
 .about_us span{
-  background-image: url(/img/Frame\ 54.jpg);
+  background-image: url(../img/Frame\ 54.jpg);
   display: block;
   height: 200px;
   width: 100%;
