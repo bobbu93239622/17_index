@@ -1,0 +1,155 @@
+.wrapper{
+  width: 100%;
+}
+
+.banner{
+  width: 1200px;
+  margin: 0 auto;
+}
+.banner .inner{
+  margin: 0 auto;
+  overflow: hidden;
+}
+.banner .inner h2{
+  font-size: 25px;
+  margin: 150px 0 0 50px;
+}
+.banner .inner p{
+  font-size: 20px;
+  line-height: 1.6;
+  margin: 100px;
+
+}
+.banner .inner img{
+  display: block;
+  height: 450px;
+  margin-right: 50px;
+  float: right;
+  margin-top: -100px;
+  
+}
+.banner .inner img:nth-child(2){
+  margin-top: 50px;
+}
+
+
+
+.picture{
+  background-image: url(/img/image\ 18.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 500px;
+  margin-top: 100px;
+  position: relative;
+}
+.picture .inner_pic{
+  background-color: white;
+  opacity: .9;
+  text-align: center;
+  width: 400px;
+  padding: 40px;
+  line-height: 2;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
+
+
+
+.content{
+  /* border: 1px solid brown; */
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.content .content_pic{
+  /* border: 1px solid blue; */
+  width: 50%;
+  margin-left: 200px;
+}
+
+.content img{
+  display: block;
+  width: 50%;
+}
+.content img:nth-child(2){
+  margin-left: 150px;
+  margin-top: -50px;
+}
+.content img:nth-child(3){
+  margin-top: -100px;
+}
+.content span{
+  width: 550px;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 50px 200px 0 0;
+  
+}
+.content p{
+  padding: 30px 0;
+}
+
+
+
+.content2{
+  /* border: 1px solid brown; */
+  background-image: url(/img/Rectangle\ 82\ \(1\).png);
+  display: flex;
+  /* width: 100%; */
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.content2 .content_pic{
+  /* border: 1px solid blue; */
+  width: 50%;
+}
+
+.content2 img{
+  display: block;
+  width: 40%;
+  margin-bottom: 30px;
+}
+.content2 img:nth-child(1){
+  margin-top: 50px;
+  margin-left: 200px;
+}
+.content2 img:nth-child(2){
+  /* border: 1px solid red; */
+  margin-right: 400px;
+  margin-top: -150px;
+  position: relative;
+ 
+}
+.content2 img:nth-child(3){
+  /* border: 1px solid blue; */
+  margin-left: 250px;
+  margin-top: -150px;
+
+ 
+  
+}
+.content2 span{
+  width: 550px;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 150px 50px 0 200px;
+  
+}
+.content2 p{
+  padding: 30px 0;
+}
+
+
+
+
+
+
+
+
+
+
+

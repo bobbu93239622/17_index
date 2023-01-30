@@ -1,0 +1,74 @@
+.wrapper .contact_info{
+  /* border: 1px solid red; */
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  /* margin-top: 100px; */
+  padding-top: 150px;
+}
+.contact_info .contact_left{
+  margin-right: 100px;
+  line-height: 1.6;
+}
+.contact_info .contact_left h2{
+  font-size: 25px;
+}
+.contact_info .contact_left p{
+  font-size: 15px;
+  margin-top: 30px;
+}
+.contact_info .contact_left span{
+  
+}
+.contact_info .contact_left a{
+  display: block;
+  margin-top: 30px;
+  text-align: center;
+  
+  padding: 10px 0;
+  text-decoration: none;
+  background-color: #B38B49;
+  color: white;
+}
+
+/* contact-right */
+.contact_right{
+  margin-right: 100px;
+  line-height: 1.6;
+}
+.contact_right h2{
+  font-size: 25px;
+}
+.contact_right ul{
+  margin-top: 30px;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 30px;
+}
+.contact_right li{
+  display: flex;
+  margin-bottom: 10px;
+}
+.contact_right .content{
+  margin-right: 20px;
+}
+.contact_right input{
+  border: 1px solid lightgray;
+  width: 250px;
+}
+.contact_right textarea{
+  border: 1px solid lightgray;
+
+}
+.contact_info .contact_right a{
+  display: block;
+  margin-top: 30px;
+  text-align: center;
+  width: 100px;
+  padding: 10px 0;
+  text-decoration: none;
+  background-color: #B38B49;
+  color: white;
+  margin-left: 140px;
+  
+}

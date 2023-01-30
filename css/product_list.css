@@ -1,0 +1,95 @@
+
+.top_pic{
+  background-image: url(/img/hk_leipabaari_leipalajitelma_02220-crop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  padding-top: 100px;
+}
+h1{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 50px;
+  padding-top: 0;
+}
+
+.menu{
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.menu ul{
+  
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+  text-align: center;
+}
+.menu li{
+  border: 1px dashed rgb(155, 155, 155);
+  font-size: 20px;
+  margin-right: 100px;
+  
+  border-radius: 15px;
+ 
+  
+}
+.menu li:hover{
+  border: 1px dashed white;
+
+  background-color: rgb(155, 155, 155);
+
+}
+.menu a{
+  text-decoration: none;
+  color: rgb(155, 155, 155);
+  display: block;
+  padding: 10px;
+
+}
+.menu a:hover{
+  
+  color: white;
+  display: block;
+
+}
+
+
+
+.product{
+  /* border: 1px solid red; */
+  width: 1200px;
+  margin: 0 auto;
+  /* margin-top: 50px; bug */
+}
+.product ul{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  
+}
+.product li{
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.product img{
+  display: block;
+  height: 250px;
+}
+.product a{
+  text-decoration: none;
+  color: rgb(155, 155, 155);
+}
+.product h2{
+  margin-top: 20px;
+  font-size: 20px;
+}
+.product p{
+  font-size: 20px;
+  line-height: 2;
+  
+}
+
+
+

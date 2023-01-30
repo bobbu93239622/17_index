@@ -1,0 +1,199 @@
+.wrapper{
+  width: 100%;
+}
+.notice_pic{
+  background-image: url(/img/Bagels&Shmear_Category-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+.note01{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #DFB869;
+  color: white;
+}
+.note01 p{
+  text-align: left;
+  line-height: 1.5;
+  margin-right: 80px;
+}
+.note01 h2{
+  font-size: 25px;
+}
+
+ 
+
+/* 標題 */
+
+
+
+
+/* 內容 */
+.content{
+  /* border: 1px solid red; */
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+.content .take_product{
+  box-shadow: 10px 5px 5px  rgb(172, 172, 172);
+  background-color: #ecebeb;
+  height: 200px;
+  margin: 0 100px 0 100px;
+  padding-left: 100px;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+}
+.content img{
+  display: block;
+  height: 50px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.content h3{
+  font-size: 20px;
+  color: rgb(234, 168, 198);
+  margin-bottom: 3px;
+  
+}
+.content p{
+  font-size: 18px;
+  
+}
+
+.content .deliver_product{
+  box-shadow: 10px 5px 5px  rgb(172, 172, 172);
+  background-color: #ecebeb;
+  margin: 0 100px 50px 100px;
+  padding-left: 100px;
+  
+}
+.content ul{
+  /* border: 1px solid green; */
+  margin-right: 50px;
+  padding-bottom: 20px;
+}
+.content li{
+  margin-bottom: 20px;
+}
+
+
+ul.beside_notice{
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  margin: 0 100px 0 100px;
+  padding-left: 100px;
+  padding-bottom: 0;
+}
+ul.beside_notice li::before{
+  content: "";
+  background-image: url(/img/circle-exclamation-solid.svg);
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  margin-left: -25px;
+  margin-top: 3px;
+  /* border:1px solid blue; */
+}
+
+
+
+
+/* 變更訂單 */
+.change_order{
+  /* border: 1px solid red; */
+  background-image: url(/img/l-intro-1661791137.jpg);
+  height: 500px;
+  margin-top: 60px;
+}
+.change_order .inner_content{
+  width: 40%;
+  line-height: 1.6;
+  margin-left: 30px;
+
+
+}
+.change_order h2{
+  font-size: 25px;
+  color: #526C67;
+  padding-top: 50px;
+}
+.change_order p{
+  font-size: 16px;
+  padding: 30px 0;
+  margin-bottom: 10px;
+}
+.change_order span{
+ 
+}
+.change_order .inner_content a{
+  text-decoration: none;
+  background-color: #526C67;
+  color: white;
+  padding: 15px 60px;
+  
+}
+
+
+
+/* 私信客服訂購 */
+
+h2.order{
+  font-size: 25px;
+  text-align: center;
+  color: #B27E45;
+  margin: 100px 0;
+}
+.private_order{
+  /* border: 1px solid blue; */
+  display: flex;
+  max-width: 1200px;
+ 
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+}
+.private_order img{
+  display: block;
+  width: 50%;
+}
+.private_order .private_inner{
+  /* border: 1px solid rebeccapurple; */
+}
+.private_order .private_inner ul{
+  margin-left: 30px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.private_order .private_inner li{
+  padding: 10px 0;
+  border-bottom: 1px dotted #B27E45;
+}
+.private_order .private_inner span{
+  color: #B27E45;
+  margin-right: 20px;
+}
+.private_order .private_inner .order_content{
+  margin-left: 77px;
+  margin-top: 20px;
+  color: #B27E45;
+}
+.private_inner > p{
+  border: 1px solid #B27E45;
+  
+  text-align: center;
+  margin-left: 30px;
+  padding: 15px 0;
+  margin-top: 50px;
+}
+.private_inner > p a{
+  text-decoration: none;
+  color: #B27E45;
+  display: block;
+}

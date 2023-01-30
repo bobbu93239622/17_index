@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/member2.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="wrapper">
+    <nav class="head">
+      <a href="index.html"><img src="img/Group 41 (1).png" alt=""></a>
+      <ul>
+        <li><a href="/news.html">最新消息</a></li>
+        <li><a href="/product_list.html">熱銷產品</a></li>
+        <li><a href="/contact.html">聯絡我們</a></li>
+        <li><a href="/order_notice.html">訂購須知</a></li>
+        <li><a href="/about_us.html">關於我們</a></li>
+        <li><a href=""><img src="/img/user-regular (1) 1.png" alt=""></a></li>
+      </ul>
+    </nav>
+
+
+    <h1>會員註冊</h1>
+    <div class="register">
+      <div class="borderbottom">
+        <div class="register_wrapper">
+          <div class="register1">
+            <div class="username">
+              <input type="text" placeholder="姓氏">
+              <input type="text" placeholder="名字">
+            </div>
+          </div>
+        
+          <div class="country">
+            <p>國家/地區</p>
+            <select name="" id="">
+              <option value="">台灣</option>
+              <option value="">日本</option>
+              <option value="">美國</option>
+              <option value="">韓國</option>
+              <option value="">加拿大</option>
+              <option value="">中國大陸</option>
+              <option value="">土耳其</option>
+              <option value="">英格蘭</option>
+              <option value="">西班牙</option>
+              <option value="">俄羅斯</option>
+            </select>
+          </div>
+
+          <div class="birthday">
+            <input type="text" placeholder="出生日期   yyyy/mm/dd">
+          </div>
+        </div>
+      </div> 
+      
+
+      <!-- count & passward -->
+      <div class="borderbottom">
+        <div class="register_wrapper">
+          <div class="register2">
+            <div class="register2_inner">
+              <input type="text" placeholder="帳號">
+            </div>
+            <div class="register2_inner">
+              <input type="text" placeholder="密碼">
+            </div>
+            <div class="register2_inner">
+              <input type="text" placeholder="確認密碼">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- phone -->
+      <div class="borderbottom">
+        <div class="register_wrapper">
+          <div class="register3">
+            <div class="register3_inner">
+              <input type="text" placeholder="郵件信箱">
+            </div>
+            <div class="register3_inner">
+              <input type="text" placeholder="電話號碼">
+              <div class="addnotice">
+                ?
+                <div class="addnotice1">
+                  <p>如果你日後忘記密碼，此電話號碼將用來驗正你的身份並重置你的密碼。</p>
+                </div>
+              </div>
+              
+            </div>
+            
+            <p>請確定你輸入的電話號碼隨時可以使用。在你從新裝置或網頁瀏覽器登入時，會用此號碼來進行身分驗證。驗證流程可能會產生簡訊或數據費用。</p>
+            <div class="sent_methood">
+              <p>驗證方式 :</p>
+              <input type="radio" name="touch" id="do" checked> <label for="do"> SMS 簡訊</label>        
+              <input type="radio" name="touch" id="do2"> <label for="do2">語音來電</label>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="borderbottom">
+        <div class="register_wrapper">
+          <div class="email_notice">
+            <input type="checkbox" id="check1" checked>
+            <label for="check1">
+              <span>公告</span>
+              <p>接收貝果電子郵件和通訊內容，包含 麵包產品、服務及軟體的公告、行銷資訊、相關推薦和最新消息。</p>
+            </label>
+            
+            <input type="checkbox" id="check2" checked>
+            <label for="check2">
+              <span>更多優惠內容</span>
+              <p>接收電子郵件和通訊內容，最新發行消息、獨家內容、特別優惠、行銷資訊和相關推薦。</p>
+            </label>
+            
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="borderbottom">
+        <div class="register_wrapper">
+          <div class="register4">
+            <img src="/img/download-3.jpg" alt="">
+            <span>
+              <input type="text" placeholder="請輸入圖中的字元">
+            </span>
+            
+          </div>
+          <a href=""><small>新代碼</small></a>
+        </div>
+      </div>
+
+
+      <button id="show">繼續</button>
+      <dialog id="infoModal">
+        <div class="close_down" >
+          <img src="/img/xmark-solid.svg" alt="" id="close">
+        </div>
+        <div class="inner">
+          <h2>驗證</h2>
+          <p>請確認手機或郵件訊息</p>
+          <input type="text" placeholder="驗證訊息">
+          <button><a href="index.html">送出</a></button>
+        </div>
+        
+        <!-- <button id="close">close</button> -->
+      </dialog>
+      
+    
+      </div>
+    </div> 
+
+
+  </div>
+
+
+  <script src="/js/member2.js"></script>
+  
+</body>
+</html>
