@@ -2,7 +2,7 @@
   width: 100%;
 }
 .notice_pic{
-  background-image: url(/img/Bagels&Shmear_Category-1.jpg);
+  background-image: url(../img/Bagels&Shmear_Category-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -93,7 +93,7 @@ ul.beside_notice{
 }
 ul.beside_notice li::before{
   content: "";
-  background-image: url(/img/circle-exclamation-solid.svg);
+  background-image: url(../img/circle-exclamation-solid.svg);
   width: 20px;
   height: 20px;
   position: absolute;
@@ -108,7 +108,7 @@ ul.beside_notice li::before{
 /* 變更訂單 */
 .change_order{
   /* border: 1px solid red; */
-  background-image: url(/img/l-intro-1661791137.jpg);
+  background-image: url(../img/l-intro-1661791137.jpg);
   height: 500px;
   margin-top: 60px;
 }
