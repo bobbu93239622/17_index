@@ -3,8 +3,8 @@
 }
 
 .banner{
-  width: 1200px;
-  margin: 0 auto;
+  min-width: 1200px;
+  margin: 0 120px;
 }
 .banner .inner{
   margin: 0 auto;
@@ -37,10 +37,12 @@
 .picture{
   background-image: url(../img/image\ 18.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   height: 500px;
   margin-top: 100px;
   position: relative;
+  min-width: 1200px;
+  width: 1440px;
 }
 .picture .inner_pic{
   background-color: white;
@@ -61,19 +63,19 @@
 .content{
   /* border: 1px solid brown; */
   display: flex;
-  width: 100%;
-  margin: 0 auto;
+  min-width: 1200px;
+  margin: 0 120px;
   margin-top: 100px;
 }
 .content .content_pic{
   /* border: 1px solid blue; */
-  width: 50%;
-  margin-left: 200px;
+  /* width: 50%; */
+  /* margin-left: 200px; */
 }
 
 .content img{
   display: block;
-  width: 50%;
+  /* width: 50%; */
 }
 .content img:nth-child(2){
   margin-left: 150px;
@@ -86,8 +88,8 @@
   width: 550px;
   font-size: 1rem;
   line-height: 1.6;
-  margin: 50px 200px 0 0;
-  
+  /* margin: 50px 200px 0 0; */
+  margin-left: 100px;
 }
 .content p{
   padding: 30px 0;
@@ -99,8 +101,9 @@
   /* border: 1px solid brown; */
   background-image: url(/img/Rectangle\ 82\ \(1\).png);
   display: flex;
-  /* width: 100%; */
-  margin: 0 auto;
+  min-width: 1200px;
+
+  margin: 0 120px;
   margin-top: 100px;
 }
 .content2 .content_pic{
@@ -110,7 +113,7 @@
 
 .content2 img{
   display: block;
-  width: 40%;
+  /* width: 40%; */
   margin-bottom: 30px;
 }
 .content2 img:nth-child(1){
@@ -136,7 +139,7 @@
   width: 550px;
   font-size: 1rem;
   line-height: 1.6;
-  margin: 150px 50px 0 200px;
+  /* margin: 150px 50px 0 200px; */
   
 }
 .content2 p{

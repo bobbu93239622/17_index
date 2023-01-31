@@ -3,7 +3,7 @@
 
 main{
   /* border: 1px solid black; */
-  max-width: 1200px;
+  min-width: 1200px;
   margin: 0 auto;
 }
 main ul{
@@ -29,14 +29,16 @@ main li img{
   height: 250px;
   border-radius: 20px;
 }
+
 main section{
   /* border: 1px solid red; */
-  margin-left: 110px;
+  /* margin-left: 110px; */
+  text-align: center;
   
 }
 main section:nth-child(2n + 1){
   /* border: 1px solid blue; */
-  margin-right: 80px;
+  /* margin-right: 80px; */
 }
 main section h2{
   font-size: 20px;
@@ -64,13 +66,16 @@ main section a::after{
 
 
 
-
+.slider_wrapper {
+  min-width: 1200px;
+}
 .slider_wrapper h5{
   text-align: center;
   font-size: 40px;
   margin: 30px 0;
 }
 .slider_wrapper ul{
+
   /* border: 1px solid blue; */
 }
 .slider_wrapper li{

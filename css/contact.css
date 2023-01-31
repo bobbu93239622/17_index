@@ -1,6 +1,6 @@
 .wrapper .contact_info{
   /* border: 1px solid red; */
-  max-width: 1200px;
+  min-width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: center;

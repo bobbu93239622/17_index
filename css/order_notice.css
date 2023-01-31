@@ -5,7 +5,7 @@
   background-image: url(../img/Bagels&Shmear_Category-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
+  min-width: 1200px;
   height: 400px;
 }
 
@@ -16,6 +16,7 @@
   justify-content: center;
   background-color: #DFB869;
   color: white;
+  min-width: 1200px;
 }
 .note01 p{
   text-align: left;
@@ -38,8 +39,8 @@ h1{
 /* 內容 */
 .content{
   /* border: 1px solid red; */
-  max-width: 1200px;
-  width: 100%;
+  min-width: 1200px;
+
   margin: 0 auto;
   line-height: 1.6;
 }
@@ -113,6 +114,7 @@ ul.beside_notice li::before{
   background-image: url(../img/l-intro-1661791137.jpg);
   height: 500px;
   margin-top: 60px;
+  min-width: 1200px;
 }
 .change_order .inner_content{
   width: 40%;
@@ -155,9 +157,9 @@ h2.order{
 .private_order{
   /* border: 1px solid blue; */
   display: flex;
-  max-width: 1200px;
+  min-width: 1200px;
  
-  width: 100%;
+  /* width: 100%; */
   margin: 0 auto;
   justify-content: center;
 }

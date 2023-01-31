@@ -3,7 +3,7 @@
   background-image: url(../img/hk_leipabaari_leipalajitelma_02220-crop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
+  min-width: 1200px;
   height: 300px;
   padding-top: 100px;
 }
@@ -77,6 +77,7 @@ h1{
 
 .product img{
   display: block;
+  width: 250px;
   height: 250px;
 }
 .product li{
@@ -91,7 +92,7 @@ h1{
 .product i{
   /* border: 1px solid red; */
   background-color: gray;
-  opacity: .2;
+  opacity: .5;
   display: block;
   font-size: 25px;
   position: absolute;
@@ -118,3 +119,8 @@ h1{
 
 
 
+
+
+.dispear{
+  display: none;
+}

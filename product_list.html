@@ -15,7 +15,7 @@
       <a href="index.html"><img src="img/Group 41 (1).png" alt=""></a>
       <ul>
         <li><a href="news.html">最新消息</a></li>
-        <li><a href="product_list.html">熱銷產品</a></li>
+        <li style="border-bottom: 2px solid brown;"><a href="product_list.html">熱銷產品</a></li>
         <li><a href="contact.html">聯絡我們</a></li>
         <li><a href="order_notice.html">訂購須知</a></li>
         <li><a href="about_us.html">關於我們</a></li>
@@ -28,7 +28,7 @@
     <h1>PRODUCT LIST</h1>
     <div class="menu">
       <ul>
-        <li><a href="">貝果</a></li>
+        <li ><a href="" id="bagel1">貝果</a></li>
         <li><a href="">酸種麵包</a></li>
         <li><a href="">司康</a></li>
         <li><a href="">肉桂捲</a></li>
@@ -38,7 +38,7 @@
 
 
     <div class="product">
-      <ul class="product_block">
+      <ul class="product_block" >
         <li>
           <a href="product_detail.html">
           
@@ -100,6 +100,71 @@
           <i class="fa-sharp fa-solid fa-cart-shopping"></i>
         </li>
       </ul>
+
+
+
+      <ul class="product_block2" style="margin-top: 50px; border-top:1px solid gray; padding-top: 20px;">
+        <li>
+          <a href="product_detail.html">
+          
+            <img src="img/截圖 2023-01-31 下午7.46.05.png" alt="">
+
+        
+           
+            
+            <h2>原味司康</h2>
+            <p>70元</p>
+          </a>
+         
+          <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+
+        </li>
+        <li>
+          <a href="product_detail.html">
+            <img src="img/截圖 2023-01-31 下午7.46.17.png" alt="">
+            
+            <h2>可可司康</h2>
+            <p>75元</p>
+          </a>
+          <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+        </li> 
+        <li>
+          <a href="product_detail.html">
+            <img src="img/截圖 2023-01-31 下午7.46.45.png" alt="">
+          
+            <h2>抹茶藍莓司康</h2>
+            <p>75元</p>
+          </a>
+          <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+        </li>
+        <li>
+          <a href="product_detail.html">
+            <img src="img/截圖 2023-01-31 下午7.57.53.png" alt="">
+        
+            <h2>蜜糖杏仁司康</h2>
+            <p>75元</p>
+          </a>
+          <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+        </li>
+        <li>
+          <a href="product_detail.html">
+            <img src="img/截圖 2023-01-31 下午7.46.35.png" alt="">
+            
+            <h2>伯爵奶茶司康</h2>
+            <p>75元</p>
+          </a>
+          <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+        </li>
+        <li>
+          <a href="product_detail.html">
+            <img src="img/截圖 2023-01-31 下午7.46.58.png" alt="">
+          
+            <h2>牛奶司康</h2>
+            <p>75元</p>
+          </a>
+          <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+        </li>
+      </ul>
     </div>
     <footer>
       <a href=""><img src="img/Vector (1).png" alt=""></a>
@@ -110,5 +175,16 @@
   </div>
   <script src="https://kit.fontawesome.com/07e5e5e602.js" crossorigin="anonymous"></script>
 
+
+  <script>
+    let bag = document.getElementById('bagel1');
+    // console.log(q);
+    bag.addEventListenter('click', function(){
+      let a = document.getElementsByClassName('product_block');
+      console.log(a);
+      a.setAttribute('class','.dispear')
+    });
+  
+  </script>
 </body>
 </html>
