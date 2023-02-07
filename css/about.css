@@ -130,7 +130,7 @@
 .content2 img:nth-child(3){
   /* border: 1px solid blue; */
   margin-left: 250px;
-  margin-top: -150px;
+  margin-top: -250px;
 
  
   
@@ -139,7 +139,8 @@
   width: 550px;
   font-size: 1rem;
   line-height: 1.6;
-  /* margin: 150px 50px 0 200px; */
+  margin-right: 100px;
+  margin-top: 200px;
   
 }
 .content2 p{

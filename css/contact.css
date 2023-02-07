@@ -25,12 +25,20 @@
   display: block;
   margin-top: 30px;
   text-align: center;
-  
+  border-radius: 4px;
   padding: 10px 0;
   text-decoration: none;
   background-color: #B38B49;
   color: white;
 }
+.contact_info .contact_left a:hover{
+  background-color: #a27d41;
+
+}
+
+
+
+
 
 /* contact-right */
 .contact_right{
@@ -60,7 +68,7 @@
   border: 1px solid lightgray;
 
 }
-.contact_info .contact_right a{
+button{
   display: block;
   margin-top: 30px;
   text-align: center;
@@ -70,5 +78,10 @@
   background-color: #B38B49;
   color: white;
   margin-left: 140px;
-  
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+button:hover{
+  background-color: #a27d41;
 }

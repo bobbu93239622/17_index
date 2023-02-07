@@ -19,8 +19,11 @@
         <li><a href="contact.html">聯絡我們</a></li>
         <li><a href="order_notice.html">訂購須知</a></li>
         <li><a href="about_us.html">關於我們</a></li>
-        <li><a href="member1.html"><img src="img/user-regular (1) 1.png" alt=""></a></li>
+
       </ul>
+      <a href="member1.html"><i class="fa-regular fa-user"></i></a>
+          
+      <a href=""><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
     </nav>
 
 
@@ -28,18 +31,20 @@
     <h1>PRODUCT LIST</h1>
     <div class="menu">
       <ul>
-        <li ><a href="" id="bagel1">貝果</a></li>
-        <li><a href="">酸種麵包</a></li>
-        <li><a href="">司康</a></li>
-        <li><a href="">肉桂捲</a></li>
+        <li id="all_product" class="orcolor">全部</li>
+        <li id="bagel1" class="orcolor">貝果</li>
+        <li id="bagel2" class="orcolor">司康</li>
+        <li id="bagel3" class="orcolor">酸種麵包</li>
+        <li class="orcolor">肉桂捲</li>
       </ul>
     </div>
 
 
 
     <div class="product">
-      <ul class="product_block" >
-        <li>
+      
+      <ul class="product_block" style="margin-top: 50px; border-top:1px solid gray; padding-top: 20px;">
+        <li >
           <a href="product_detail.html">
           
             <img src="img/下載 (2).webp" alt="">
@@ -174,16 +179,56 @@
     </footer>
   </div>
   <script src="https://kit.fontawesome.com/07e5e5e602.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/07e5e5e602.js" crossorigin="anonymous"></script>
 
 
   <script>
-    let bag = document.getElementById('bagel1');
-    // console.log(q);
-    bag.addEventListenter('click', function(){
-      let a = document.getElementsByClassName('product_block');
-      console.log(a);
-      a.setAttribute('class','.dispear')
+    var allp = document.getElementById('all_product');
+    allp.addEventListener('click', function(e){
+      let bgl_list = document.querySelector('.product_block');
+      let sukan_list = document.querySelector('.product_block2');
+      bgl_list.style.display = 'flex';
+
+      sukan_list.style.display = 'flex';
+      // allp.classList.remove('orcolor');
+      allp.classList.add('word_color');
+      
+    })
+
+
+    var bgl = document.getElementById('bagel1');
+    
+    bgl.addEventListener('click', function(e){
+      let bgl_list = document.querySelector('.product_block');
+      
+      bgl_list.style.display = 'flex';
+      
+      sukan_list.style.display = 'none';
+      bgl.classList.add('word_color');
+      
+   
     });
+    var sukan = document.getElementById('bagel2');
+    let sukan_list = document.querySelector('.product_block2');
+    sukan.addEventListener('click', function(e){
+      let bgl_list = document.querySelector('.product_block');
+
+        bgl_list.style.display = 'none';
+        sukan_list.style.display = 'flex';
+
+      
+      
+    })
+
+    // var q = document.getElementById('bagel2');
+    // console.log(q);
+    // q.addEventListener('click', function(){
+    //   let c = document.getElementsByClassName('product_block');
+    //   console.log(c)
+      
+    // });
+   
+   
   
   </script>
 </body>

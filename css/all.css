@@ -42,9 +42,13 @@ nav.head li a{
   color: rgb(155, 155, 155); 
   font-size: 18px;
 }
-nav.head li img{
-  width: 30px;
-  margin-top: -5px;
+nav.head  i{
+  margin-right: 10px;
+  /* margin-bottom: 50px; */
+  color: rgb(155, 155, 155); 
+  font-size: 18px;
+  text-align: center;
+  /* border: 1px solid red; */
 }
 nav.head li a:hover{
   color: rgb(182, 118, 0);
@@ -80,3 +84,19 @@ footer{
  footer p{
   margin: 10px 0;
  }
+
+
+@media screen  and (max-width: 414px){
+  footer{
+    min-width: 0;
+    padding: 0 10px;
+    margin-top: 40px;
+  }
+  footer p{
+    font-size: 2vw;
+    
+  }
+
+
+
+}

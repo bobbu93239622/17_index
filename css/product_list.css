@@ -37,21 +37,24 @@ h1{
 }
 .menu li:hover{
   border: 1px dashed white;
-
   background-color: rgb(155, 155, 155);
+  color: white
 
 }
-.menu a{
+.menu .orcolor{
   text-decoration: none;
   color: rgb(155, 155, 155);
   display: block;
   padding: 10px;
 
 }
-.menu a:hover{
+.menu .word_color{
+  background-color: rgb(155, 155, 155);
   
   color: white;
-  display: block;
+  padding: 10px;
+
+  /* display: block; */
 
 }
 
@@ -86,7 +89,7 @@ h1{
   
 }
 .product li:hover i{
-  display: block;
+  /* display: block; */
 
 }
 .product i{
@@ -100,7 +103,7 @@ h1{
   width: 100%;
   padding: 5px 0;
   text-align: center;
-  display: none;
+  /* display: none; */
   
 }
 .product a{
@@ -121,6 +124,4 @@ h1{
 
 
 
-.dispear{
-  display: none;
-}
+
