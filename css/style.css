@@ -437,6 +437,7 @@ footer img{
     height: 60vh;
     min-width: 0;
     padding-bottom: 0;
+    
   }
   .intro .pic_inner{
     background-attachment: local;
@@ -445,19 +446,24 @@ footer img{
     top: 0;
   }
   .intro .intro_inner{
-    
+    width: 80%;
     margin-top: 20px;
-    margin-right: 20px;
-    margin-left: 0;
+    margin-right: 50px;
+  
   }
+
   .intro p{
     font-size: 2vw;
     padding-left: 10px;
+    /* width: auto; */
+    
+    
   }
   .intro img{
     position: static;
     width: 30vw;
     margin-top: 160px;
+    /* display: none; */
   }
   .inner_wrapper .product h2{
     margin-left: 20px;
@@ -514,9 +520,7 @@ footer img{
     margin: 0 auto;
     margin-top: -20px;
   }
-  .intro .intro_inner{
-    width: auto;
-  }
+ 
 
 
 
@@ -525,15 +529,17 @@ footer img{
   
   .news{
     min-width: 0;
-    
-    height: 35vh;
+    width: 100%;
+    height: auto;
     margin-top: 40px;
   }
- 
+  .news ul{
+    padding: 20px 5px;
+  }
   .news ul li{
     font-size: 1vw;
     padding: 10px 0 10px 10px;
-    /* width: 100%; */
+    width: auto;
   }
   .news li span{
     margin-right: 40px;
@@ -555,11 +561,13 @@ footer img{
     margin-left: 0;
   }
   .main_map .map_right img{
-    height: 150px;
+    height: 10vh;
+    width: 10vw;
     margin-left: 10px;
+    display: none;
   }
   .main_map .map_left img{
-    height: 150px;
+    height: 20vh;
     margin-left: 40px;
     margin-bottom: 20px;
 

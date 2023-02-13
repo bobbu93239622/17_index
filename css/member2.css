@@ -284,3 +284,105 @@ dialog .inner button a{
 
 
 
+@media screen  and (max-width: 414px){
+  h1{
+    font-size: 5vw;
+
+  }
+  .borderbottom{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .register{
+    min-width: auto;
+  }
+  .register_wrapper{
+    padding: 0;
+  }
+  .register1 .username input:nth-child(2){
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .register1 .username input{
+    /* width: 165px; */
+    font-size: 3vw;
+    width: 30vw;
+  }
+  .country select{
+    width: 30vw;
+    font-size: 3vw;
+  }
+  .birthday input{
+   width: 100%; 
+   font-size: 3vw;
+   padding-left: 10px;
+  }
+
+
+
+  .register2_inner input{
+    font-size: 3vw;
+    padding-right: 30px;
+  }
+
+
+  .register3_inner input{
+    font-size: 3vw;
+    padding-right: 30px;
+
+  }
+
+  .register3 p{
+    font-size: 3vw;
+    margin-bottom: 10px;
+    /* margin-left: 30px; */
+    width: 50vw;
+  }
+  .register3 .addnotice{
+    /* position: static; */
+    display: none;
+
+  }
+  .sent_methood label{
+    font-size: 3vw;
+    padding-right: 30px;
+  }
+
+  .email_notice span{
+    font-size: 4vw;
+  }
+  .email_notice p{
+    font-size: 3vw;
+    width: 40vw;
+    margin-top: 10px;
+  }
+
+
+
+
+  .register4{
+    flex-direction: column-reverse;
+  }
+  img{
+    width: 25vw;
+    margin-top: 10px;
+  }
+  .register4 input{
+    margin-left: -30px;
+    font-size: 3vw;
+  }
+  .register_wrapper small{
+    white-space: nowrap;
+    margin-left:  -200px;
+
+  }
+  
+
+  button{
+    font-size: 4vw;
+  }
+}
+
+
+
+

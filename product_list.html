@@ -13,17 +13,18 @@
   <div class="wrapper">
     <nav class="head">
       <a href="index.html"><img src="img/Group 41 (1).png" alt=""></a>
-      <ul>
+      <ul class="origin">
         <li><a href="news.html">最新消息</a></li>
-        <li style="border-bottom: 2px solid brown;"><a href="product_list.html">熱銷產品</a></li>
+        <li><a href="product_list.html">熱銷產品</a></li>
         <li><a href="contact.html">聯絡我們</a></li>
         <li><a href="order_notice.html">訂購須知</a></li>
         <li><a href="about_us.html">關於我們</a></li>
-
+      
       </ul>
       <a href="member1.html"><i class="fa-regular fa-user"></i></a>
           
-      <a href=""><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+      <a href="#" ><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+      <i id ="toggle" class="fa-solid fa-bars"></i>
     </nav>
 
 
@@ -43,7 +44,7 @@
 
     <div class="product">
       
-      <ul class="product_block" style="margin-top: 50px; border-top:1px solid gray; padding-top: 20px;">
+      <ul class="product_block" >
         <li >
           <a href="product_detail.html">
           
@@ -108,7 +109,7 @@
 
 
 
-      <ul class="product_block2" style="margin-top: 50px; border-top:1px solid gray; padding-top: 20px;">
+      <ul class="product_block2">
         <li>
           <a href="product_detail.html">
           
@@ -192,6 +193,9 @@
       sukan_list.style.display = 'flex';
       // allp.classList.remove('orcolor');
       allp.classList.add('word_color');
+      sukan.classList.remove('word_color')
+      bgl.classList.remove('word_color');
+
       
     })
 
@@ -205,6 +209,8 @@
       
       sukan_list.style.display = 'none';
       bgl.classList.add('word_color');
+      sukan.classList.remove('word_color')
+      allp.classList.remove('word_color');
       
    
     });
@@ -215,6 +221,13 @@
 
         bgl_list.style.display = 'none';
         sukan_list.style.display = 'flex';
+        sukan.classList.add('word_color');
+        bgl.classList.remove('word_color');
+        allp.classList.remove('word_color');
+
+        // allp.classList.remove('orcolor');
+
+
 
       
       
@@ -231,5 +244,8 @@
    
   
   </script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous"></script>
+  <script src="js/nav.js"></script>
+
 </body>
 </html>

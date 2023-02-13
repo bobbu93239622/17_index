@@ -42,6 +42,24 @@ $('.slideshow').each(function(){
  
        return direction;
      }
+
+
+
+    //  let bar_btn = document.getElementById('toggle');
+    //  bar_btn.addEventListener('click',function(e){
+    //   let show_side =  document.getElementsByClassName('origin')[0];
+      
+      
+    //   show_side.classList.toggle('show')
+      
+
+
+    //  })
+     
+    
+ 
+
+   
   
 
 

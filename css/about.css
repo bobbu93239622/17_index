@@ -153,6 +153,142 @@
 
 
 
+@media screen  and (max-width: 414px){
+  nav.head img{
+    height: 15vw;
+  }
+  h1{
+    font-size: 5vw;
+    padding-top: 100px;
+  }
+  .banner{
+    margin: 0;
+    min-width: auto;
+  }
+  .banner .inner h2{
+    margin-top: 50px;
+    font-size: 4vw;
+    margin-left: 30px;
+  }
+  .banner .inner p{
+    font-size: 3vw;
+    margin: 20px 30px;
+    
+  }
+  .banner .inner img{
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 25vh;
+    width: 15vw;
+    margin-top: -50px;
+  }
+  .banner .inner img:nth-child(2){
+    margin-top: -30px;
+  }
+  .picture{
+    background-size: cover;
+    margin-top: 50px;
+    height: 30vh;
+    min-width: auto;
+    width: 100%
+  }
+  img{
+    height: 20px;
+    margin-top: 5px;
+  }
+  .picture .inner_pic{
+    /* padding: 10px ; */
+    padding: 0;
+    font-size: 2vw;
+  }
+
+
+
+
+
+  .content{
+    min-width: 0;
+    margin: 0;
+    display: block;
+  }
+  .content .content_pic{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+  }
+  .content img{
+    width: 20vw;
+    height: 20vh;
+    margin: 0 ;
+  }
+  .content span{
+    margin-top: -20px;
+  }
+  .content img:nth-child(2){
+    margin: 0;
+  }
+  .content img:nth-child(3){
+    margin: 0;
+  }
+  .content p{
+    padding: 10px 30px;
+    font-size: 3vw;
+    
+    margin: 0 auto;
+
+  }
+
+
+
+
+
+  .content2{
+    min-width: 0;
+    margin: 0;
+    /* display: block; */
+    flex-direction: column-reverse;
+  }
+  .content2 p{
+    padding: 10px 30px;
+    font-size: 3vw;
+    margin: 0;
+    /* margin-top: 40px; */
+  }
+  .content_pic2{
+    display: flex;
+    /* width: 50px; */
+    margin-top: 10px;
+    justify-content: space-around;
+    height: 60px;
+    /* margin-bottom: -20px; */
+  }
+  .content2 span{
+    margin-top: 90px;
+    width: 100%;
+  }
+  .content2 img{
+    width: 20vw;
+    height: 20vh;
+    margin: 0 ;
+  }
+
+  .content2 img:nth-child(1){
+    margin: 0;
+  }
+  .content2 img:nth-child(2){
+    margin: 0;
+  }
+  .content2 img:nth-child(3){
+    margin: 0;
+  }
+
+}
+
+
+
+
+
+
 
 
 

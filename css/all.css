@@ -29,9 +29,10 @@ nav.head img{
   width: 60px;
   margin-left: 20px;
 }
-nav.head ul{
+.origin{
   display: flex;
   margin-left: auto;
+  
 }
 nav.head li{
  padding: 5px 30px; 
@@ -52,6 +53,9 @@ nav.head  i{
 }
 nav.head li a:hover{
   color: rgb(182, 118, 0);
+}
+#toggle{
+  display: none
 }
 
 
@@ -87,6 +91,48 @@ footer{
 
 
 @media screen  and (max-width: 414px){
+  nav.head{
+    display: block;
+    height: 60px;
+  }
+  nav.head  img{
+    /* border: 1px solid red; */
+    margin-left: 0;
+    /* height: 20px; */
+    display: inline-block;
+    float: left;
+  }
+  nav.head ul{
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 60px;
+    border-top: 1px solid black ;
+    /* margin-top: 5px; */
+    /* background-color: white; */
+    
+  
+  }
+  nav.head ul li{
+    background-image: url(../img/Rectangle\ 13.jpg);
+    /* background-color: rgb(247, 240, 217); */
+  }
+  nav.head i{
+    /* text-align: center; */
+    margin-top: 10px;
+    
+  }
+
+
+
+
+
+
+
+
   footer{
     min-width: 0;
     padding: 0 10px;
@@ -96,6 +142,24 @@ footer{
     font-size: 2vw;
     
   }
+
+  #toggle{
+    display: block;
+    float: right;
+  }
+  .origin{
+    visibility: hidden;
+    /* display: none; */
+ 
+  }
+
+  .show{
+    
+    /* display: block; */
+    /* transition:  5s; */
+  }
+
+
 
 
 

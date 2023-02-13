@@ -18,7 +18,7 @@
   <div class="wrapper">
     <nav class="head">
       <a href="index.html"><img src="img/Group 41 (1).png" alt=""></a>
-      <ul>
+      <ul class="origin">
         <li style="border-bottom: 2px solid brown;"><a href="news.html">最新消息</a></li>
         <li><a href="product_list.html">熱銷產品</a></li>
         <li><a href="contact.html">聯絡我們</a></li>
@@ -29,6 +29,8 @@
       <a href="member1.html"><i class="fa-regular fa-user"></i></a>
           
       <a href=""><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+      <i id ="toggle" class="fa-solid fa-bars"></i>
+
     </nav>
 
     <h1>最新消息</h1>
@@ -144,23 +146,38 @@
   
   
 
-
+  
   <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
   <script src="https://kit.fontawesome.com/07e5e5e602.js" crossorigin="anonymous"></script>
 
   <script>
-    $(function(){
-      $('.slider').slick({
-        infinite: true,
-        slidesToShow: 4,
-        slidesToScroll: 3,
-        prevArrow:'<div class="prev_arrow"><img src="img/angle-left-solid.svg" alt=""></div>',
-        nextArrow:'<div class="next_arrow"><img src="img/angle-right-solid.svg" alt=""></div>'
-      });
-    });
+    // $(function(){
+    //   $('.slider').slick({
+    //     infinite: true,
+    //     slidesToShow: 4,
+    //     slidesToScroll: 3,
+    //     prevArrow:'<div class="prev_arrow"><img src="img/angle-left-solid.svg" alt=""></div>',
+    //     nextArrow:'<div class="next_arrow"><img src="img/angle-right-solid.svg" alt=""></div>',
+    //     responsive: [
+    //     {
+    //       breakpoint: 414,
+    //       settings: {
+    //         slidesToShow: 1,
+    //         slidesToScroll: 1,
+    //         infinite: true,
+    //         prevArrow:'<div class="prev_arrow"><img src="img/angle-left-solid.svg" alt=""></div>',
+    //         nextArrow:'<div class="next_arrow"><img src="img/angle-right-solid.svg" alt=""></div>',
+    //         // dots: true
+    //       }
+    //     },
+    //   ]
+    //   });
+    // });
    
   </script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous"></script>
+  <script src="js/nav.js"></script>
   
 </body>
 </html>

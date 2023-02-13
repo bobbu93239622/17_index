@@ -85,3 +85,65 @@ button{
 button:hover{
   background-color: #a27d41;
 }
+
+
+
+
+@media screen  and (max-width: 414px){
+  .wrapper .contact_info{
+    flex-direction: column;
+    min-width: 0;
+    margin: 0 auto;
+    padding-top: 100px;
+    width: 100%;
+  }
+  .contact_info .contact_left{
+    width: auto;
+    margin: 0 auto;
+
+  }
+  .contact_info .contact_left h2{
+    font-size: 4vw;
+    margin-bottom: 20px;
+  }
+  .contact_info .contact_left p{
+    font-size: 3vw;
+    margin-top: 10px;
+  }
+  .contact_info .contact_left a{
+    margin-top: 10px;
+    padding: 5px 20px;
+    width: 60px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+
+  
+  .contact_right{
+    margin-right: 30px;
+    margin: 0 auto;
+    margin-top: 30px;
+    /* margin-left: 10px; */
+    width: auto;
+    /* margin-left: 100px; */
+  }
+  
+  .contact_right h2{
+    font-size: 4vw;
+  }
+  .contact_right .content{
+    font-size: 3vw;
+  }
+  .contact_right input{
+    width: auto;
+  }
+  .contact_right textarea{
+    width: 145px;
+    padding: 0;
+  }
+  button{
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+}

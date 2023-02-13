@@ -201,3 +201,146 @@ h2.order{
   color: #B27E45;
   display: block;
 }
+
+
+
+
+
+
+
+@media screen  and (max-width: 414px){
+  .notice_pic{
+    min-width: 0;
+  }
+  .note01{
+    min-width: 0;
+    width: auto;
+  }
+  .note01 p{
+    font-size: 2vw;
+    /* margin-left: 20px; */
+    /* text-align: center; */
+    margin: 0 auto;
+    padding: 0 30px;
+    width: auto;
+  }
+  .note01 h2{
+    display: none;
+  }
+
+
+
+  h1{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 4vw;
+  }
+  .content{
+    min-width: 0;
+    /* margin: 0 auto; */
+  }
+  .content .take_product{
+    margin: 0 20px;
+    padding: 0;
+    padding-bottom: 0;
+    height: 20vh;
+    padding-top: 5px;
+    width: auto;
+  }
+  .content img{
+    height: 30px;
+    padding: 10px ;
+  }
+  .content h3{
+    font-size: 4vw;
+    margin: 0 40px;
+   
+  }
+  .content p{
+    font-size: 3vw;
+    margin: 0 40px;
+  }
+
+
+
+  .content .deliver_product{
+    margin: 0;
+    padding: 0;
+    margin: 20px 20px;
+    
+  }
+  .content ul{
+    margin-right: 0;
+  }
+
+
+
+  ul.beside_notice{
+    margin: 0 20px;
+    padding: 0;
+    width: auto;
+  }
+  ul.beside_notice li{
+    font-size: 2vw;
+    padding: 0 30px;
+  }
+  ul.beside_notice li::before{
+    width: 10px;
+    height: 10px;
+    margin-left: -15px;
+  }
+
+
+
+
+  .change_order{
+    min-width: 0;
+    margin-top: 30px;
+    background-image: url(../img/2.9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .change_order h2{
+    padding-top: 20px;
+    font-size: 5vw;
+  }
+  .change_order p{
+    padding: 10px 0;
+    font-size: 3vw;
+  }
+  .change_order .inner_content{
+    width: auto;
+    margin: 0 55px;
+  }
+  .change_order .inner_content a{
+    padding: 10px 30px;
+    width: 30vw;
+    font-size: 3vw;
+    margin: 0 auto;
+    /* margin-left: 80px; */
+  }
+
+
+
+  h2.order{
+    font-size: 5vw;
+    margin: 30px 0;
+  }
+  .private_order{
+    min-width: auto;
+    flex-direction: column;
+  }
+  .private_order img{
+    height: 25vh;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  .private_order .private_inner li{
+    font-size: 3vw;
+  }
+  .private_inner > p{
+    margin: 0 auto;
+    width: 40vw;
+    margin-top: 10px;
+  }
+}
