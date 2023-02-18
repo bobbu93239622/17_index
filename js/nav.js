@@ -3,9 +3,19 @@ $(function(){
   
     // $('.origin li').hide()
     $('#toggle').click(function(){
-      $('.origin li').css('visibility' , 'visible').slideToggle(500);
+      $('.origin li').toggleClass('.show');
     })
   
   
   
  })
+
+
+ let a = document.getElementById('toggle');
+ a.addEventListener('click',(e) => {
+  let b = document.getElementsByClassName('origin')[0]
+  b.classList.toggle('show');
+ })
+
+
+ 

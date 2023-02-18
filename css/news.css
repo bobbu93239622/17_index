@@ -82,7 +82,7 @@ main section a::after{
   margin-left: 130px;
 }
 .slider_wrapper li{
-  border: 1px solid green;
+  border: 1px solid black;
   height: 300px;
   width: 300px;
   margin: 0 50px;

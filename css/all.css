@@ -54,6 +54,22 @@ nav.head  i{
 nav.head li a:hover{
   color: rgb(182, 118, 0);
 }
+.cart{
+  text-decoration: none;
+  position: relative;
+}
+.cart span{
+  color: white;
+  padding: 3px;
+  font-size: 2px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  right: 5px;
+  top: -10px;
+  opacity: .8;
+
+}
 #toggle{
   display: none
 }
@@ -94,6 +110,7 @@ footer{
   nav.head{
     display: block;
     height: 60px;
+    z-index: 99;
   }
   nav.head  img{
     /* border: 1px solid red; */
@@ -103,7 +120,8 @@ footer{
     float: left;
   }
   nav.head ul{
-    flex-direction: column;
+    display: block;
+    /* flex-direction: column; */
     position: absolute;
     top: 0;
     bottom: 0;
@@ -147,16 +165,25 @@ footer{
     display: block;
     float: right;
   }
-  .origin{
-    visibility: hidden;
-    /* display: none; */
- 
-  }
 
-  .show{
+
+
+
+
+  .origin{
+    /* overflow: hidden; */
+    position: absolute;
+    transform: translateY(-300px);
+    transition: .5s;
+    z-index: -1;
+    /* clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); */
     
-    /* display: block; */
-    /* transition:  5s; */
+  }
+  .show{
+    /* overflow: visible; */
+    transform: translateY(0);
+    transition: .5s;
+
   }
 
 

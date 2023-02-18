@@ -13,22 +13,37 @@
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   
   <title>Document</title>
+
+
+  <style>
+   
+  </style>
 </head>
 <body>
+
+  <div id="preloader">
+    <div id="status"><img src="img/bagelpic.png"/></div>
+  </div>
+
+
+
   <div class="wrapper">
     <nav class="head">
       <a href="index.html"><img src="img/Group 41 (1).png" alt=""></a>
-      <ul class="origin">
-        <li><a href="news.html">最新消息</a></li>
-        <li><a href="product_list.html">熱銷產品</a></li>
-        <li><a href="contact.html">聯絡我們</a></li>
-        <li><a href="order_notice.html">訂購須知</a></li>
-        <li><a href="about_us.html">關於我們</a></li>
       
-      </ul>
+        <ul class="origin">
+          <li><a href="news.html">最新消息</a></li>
+          <li><a href="product_list.html">熱銷產品</a></li>
+          <li><a href="contact.html">聯絡我們</a></li>
+          <li><a href="order_notice.html">訂購須知</a></li>
+          <li><a href="about_us.html">關於我們</a></li>
+        
+        </ul>
+     
+     
       <a href="member1.html"><i class="fa-regular fa-user"></i></a>
-          
-      <a href="#" ><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+        
+      <a href="cart.html" class="cart"><i class="fa-sharp fa-solid fa-cart-shopping "></i><span>0</span></a>
       <i id ="toggle" class="fa-solid fa-bars"></i>
     </nav>
 
@@ -237,6 +252,7 @@
   </script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous"></script>
   <script src="js/index.js"></script>
+  <script src="js/main.js"></script>
   <script src="js/nav.js"></script>
 
   <script src="https://kit.fontawesome.com/07e5e5e602.js" crossorigin="anonymous"></script>
@@ -247,7 +263,16 @@
 
 
    <!-- Swiper JS -->
+   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+  
+   <script>
+    $(window).load(function(e) { // 確認整個頁面讀取完畢再將這三個div隱藏起來
+    $("#status").delay(2000).fadeOut(3000); //delay --> 延遲幾秒才fadeOut
+    $("#preloader").delay(4000).fadeOut(3000);
+    })
+  </script>
 
+</body>
    
 </body>
 </html>
