@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .top i{
+            display: none;
+        }
+
+        @media screen  and (max-width: 414px){
+            .top i{
+                display: block;
+            }
+            .origin{
+                /* overflow: hidden; */
+                position: absolute;
+                transform: translateX(-300px);
+                transition: .5s;
+                z-index: -1;
+                /* clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); */
+                
+            }
+            .show{
+                /* overflow: visible; */
+                transform: translateX(0);
+                transition: .5s;
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="top">
+        <i class="fa fa-bars" aria-hidden="true" id="toggle"></i>
+        <a href="./index.html">
+            <img src="./img/Index/Component 1.png" alt=""></a>
+        <ul class="flex-nav menu origin">
+            <li><a href="./page1.html">帳篷目錄</a></li>
+            <li><a href="./recommend.html">一日推薦</a></li>
+            <li><a href="./menu.html">商品租借</a></li>
+            <li><a href="./qa.html">常見問題</a></li>
+            <li><a href="./news.html">最新消息</a></li>
+            <li><a href="./order.html">線上預約</a></li>
+        </ul>
+    </nav>
+
+
+
+    <script src="https://kit.fontawesome.com/07e5e5e602.js" crossorigin="anonymous"></script>
+
+    <script>
+
+        let a = document.getElementById('toggle');
+        a.addEventListener('click',(e) => {
+        let b = document.getElementsByClassName('origin')[0]
+        b.classList.toggle('show');
+        })
+    </script>
+</body>
+</html>

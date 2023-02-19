@@ -49,6 +49,7 @@ for(let i = 0; i < carts.length; i++) {
 
 function onLoadCartNumbers() { //設此函式是當我重新載入頁面時，我的購物車的數字會變成0，但localstorage還是有東西
   let productNumbers = localStorage.getItem('cartNumbers')
+  // console.log(productNumbers);
 
   if(productNumbers) {
     document.querySelector('.cart span').textContent = productNumbers;

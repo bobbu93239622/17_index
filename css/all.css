@@ -114,7 +114,8 @@ footer{
   }
   nav.head  img{
     /* border: 1px solid red; */
-    margin-left: 0;
+    margin-left: 10px;
+    margin-top: 5px;
     /* height: 20px; */
     display: inline-block;
     float: left;
@@ -140,7 +141,7 @@ footer{
   }
   nav.head i{
     /* text-align: center; */
-    margin-top: 10px;
+    margin-top: 20px;
     
   }
 

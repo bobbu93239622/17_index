@@ -73,9 +73,13 @@ img{
 @media screen  and (max-width: 414px){
     .products-container{
         max-width: 100%;
+        
+        padding: 100px 10px 0 10px;
     }
     .product-header{
         max-width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     img{
         width: 100px;
@@ -89,6 +93,17 @@ img{
     }
     .total{
         /* font-size: 4vw; */
+    }
+    .price{
+        /* flex-grow: 1; */
+        justify-content: right;
+    }
+    .quantity{
+        justify-content: center;
+
+    }
+    .quantity span{
+        padding: 0 5px;
     }
     
 }

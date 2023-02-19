@@ -94,9 +94,12 @@
   display: flex;
 }
 .form-group .form_inline input{
-  width: 30%;
+  width: 50%;
 }
-
+#recode{
+  text-decoration: none;
+  color: black;
+}
 
 .btn-box{
   /* border: 1px solid purple; */
@@ -122,6 +125,9 @@
 }
 .btn-box li:nth-child(2){
   margin-left: 20px;
+}
+.redcolor{
+  border-color: red;
 }
 
 

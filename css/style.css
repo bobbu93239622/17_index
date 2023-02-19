@@ -487,8 +487,8 @@ footer img{
   .intro .intro_inner{
     width: 80%;
     margin-top: 20px;
-    margin-right: 50px;
-  
+    margin-right: 100px;
+    /* text-align: center; */
   }
 
   .intro p{
@@ -502,7 +502,7 @@ footer img{
     position: static;
     width: 30vw;
     margin-top: 160px;
-    /* display: none; */
+    display: none;
   }
   .inner_wrapper .product h2{
     margin-left: 20px;
