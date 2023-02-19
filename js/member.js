@@ -19,6 +19,7 @@ sign_button.addEventListener('click',function(){
 
     
     }
+    console.log(count);
     if(count == 1){
         alert('請填入完整資料')
         for(let i = 0; i < sign_el.length; i++){
@@ -26,10 +27,12 @@ sign_button.addEventListener('click',function(){
 
             if(sign_el[i].value !== ''){
                 sign_el[i].classList.remove('redcolor')
-                // count = 0
+                count = 0
                 // return count
             }else{
                 sign_el[i].classList.add('redcolor')
+                // count = 0
+                
             }
             
         }
