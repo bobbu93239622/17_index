@@ -237,6 +237,7 @@
   }
   .picture_list img{
     width: 20vw;
+    height: 80px;
     margin-left: 10px;
   }
 
